@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset n="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="D:\WorkSpace-project\bootstrap-5.3.0-dist\css\bootstrap.css" class="">
+    
+    <link rel="stylesheet" href="D:\WorkSpace-project\Project\secondary page\css\sub-page.css" class="">
+</head>
+<body>
+    <div class="slider">
+        <div class="div-slider-content">
+            <h6 class="color-text-white nav-container" ><a class="color-text-white nav-home" type="a" href="#">Home </a> / Energy Saving</h6>
+            <div class="container-label">
+            <h1 class="color-text-white content" type="title">Energy Saving</h1>
+            <div class="content color-text-white">
+            <h3 class="color-text-white content">Save over £1000 with A-rated products</h3>
+        </div>
+        <p class="Product-Description color-text-white ">Our A-rated range of Washing Machines 
+            and Tumble Dryers guarantees 
+            energy saving consumption and superior performance within a 5-year period</p>
+        </div>
+    </div>
+        <img image="slider" 
+        src="D:\WorkSpace-project\Project\secondary page\image\slider-main-secon.webp" class="">
+</div>
+    <div class="sup-nav">
+        <ul type="ul" class="list-item-menu">
+            <li class="active">
+                <a href="#product-Introduction" class="items" type="a">A+++ RATED TUMBLE DRYERS, A-RATED WASHING MACHINES</a></li>
+            <li>
+                <a href="#Youreko" class="items" type="a">YOUREKO</a>
+            </li>
+            <li>
+                <a href="#" class="items" type="a">SHOP THE RANGE</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container-product" id="product-Introduction">
+        <p class="p-introductory-product">Save over £1000 on your energy bills with a 
+            Haier Heat Pump Tumble Dryer, 
+            and over £100 on your energy bills with a Haier A-Rated Washing Machine.</p>
+        <div class="div-product-images">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <img 
+                        src="D:\WorkSpace-project\Project\secondary page\image\des-project-1.webp"
+                        class="images-product">
+                        <div class="Product-Description">
+                        <h2 class="items-title">A+++ Rated Tumble Dryers</h2>
+                        <p class="p-description">Heat pump technology cleverly conserves heat inside your dryer's drum,
+                            not only lowering energy consumption by up to 50%*, but also ensuring your laundry is taken 
+                            much better care of compared to a regular tumble dryer. This makes them by far the most 
+                            energy-efficient of all the tumble dryer types available, 
+                            saving you money in the long term.</p>
+                            <p class="product-benefits">*Drying energy saving based on 4 years, 
+                                comparing an A++ rated Haier tumble dryer vs the corresponding KG load size on the market
+                                average B energy rated condenser tumble dryer. Cost of energy based on 34p per kw/h, 
+                                260 uses per year.</p>
+                    </div>
+                </div>
+                    <div class="col-6">
+                        <img 
+                        src="D:\WorkSpace-project\Project\secondary page\image\des-project-2.webp" 
+                        alt="" class="images-product">
+                        <div class="Product-Description">
+                        <h2 class="items-title">A Rated Washing Machines</h2>
+                        <p class="p-description">Haier's Direct Motion Motors have been designed
+                            and built to last with a lifetime guarantee. Operating without a 
+                            belt, the motor is directly attached to the drum, vastly reducing 
+                            noise and vibration, increasing durability while also reducing energy 
+                            and water consumption. All of our washing machines are A-rated for 
+                            energy which means that less electricity is used over the course of 
+                            washes, saving you over £100**, and also benefitting the environment.</p>
+                        <p class="product-benefits">**Washing energy saving based on 3 years,
+                            comparing an A rated Haier washing machine vs the market average model with 
+                            corresponding KG load size on D or E energy rating.
+                            Cost of energy based on 34p per kw/h, 284 uses per year.</p>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <li type="li" id="Youreko">
+            Youreko
+        </li>
+        <div class="container-compare-efficiency">
+        <div class="compare-efficiency-projects">
+            <div class="content-compare-efficiency">
+                <p class="content">Compare the energy efficiency</p>
+                <p class="editorialPush__text">We are working with Youreko using their Energy Savings 
+                    Tool to make it even easier for you to see the energy efficiency
+                    of our appliances in terms of pounds and pence,
+                    helping you make sustainable choices that save you money!</p>
+                <button class="btn-more" type="button">
+                    <a href="" class="" type="a">LEARN MORE</a>
+                </button>
+            </div>
+        </div>
+        <img 
+            src="D:\WorkSpace-project\Project\secondary page\image\Compare efficiency-1.webp" 
+            alt="" 
+            class="image-efficiency"> 
+    </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded',function(){
+        var listMenu = document.querySelectorAll('.list-item-menu li');
+        listMenu.forEach(function(item){
+            item.addEventListener('click',function(){
+                listMenu.forEach(function(item){
+                    item.classList.remove('active');
+                });
+            item.classList.add('active');
+            });
+        })
+    });
+</script>
+</html>
